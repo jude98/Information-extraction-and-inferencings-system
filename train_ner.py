@@ -109,8 +109,7 @@ def main(model=None, output_dir="train_ner", n_iter=50):
 
 
 
-
-"""    if output_dir is not None:
+   if output_dir is not None:
         output_dir = Path(output_dir)
         if not output_dir.exists():
             output_dir.mkdir()
@@ -118,7 +117,7 @@ def main(model=None, output_dir="train_ner", n_iter=50):
         print("Saved model to", output_dir)
 
         # test the saved model
-        print("Loading from", output_dir)
+        """print("Loading from", output_dir)
         nlp2 = spacy.load(output_dir)
 
         #for new_text in all_news:
