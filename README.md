@@ -24,7 +24,7 @@ sudo pip3 install scrapy
 ## Running
 ### Scrapy 
 ```bash
-cd ./newscrawl/newscrawl/spider/
+cd ./News_Crawl/newscrawl/newscrawl/spider/
 scrapy crawl asianet -o news.csv
 
 ```
